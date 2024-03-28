@@ -1,38 +1,7 @@
-while True:
-    buku_tersedia = ['Sherlock Holmes', 'Mahmoud Darwis', 'Dune']
+print ('===KELOMPOK 2 PENYEDIAAN MOTOR===')
 
-    while True :
-        list_buku_dengan_Nomor = [f"{i+1}. {buku}" for i, buku in enumerate(buku_tersedia)]
-
-        for item in list_buku_dengan_Nomor:
-            print(item)
-
-        tambah_atau_hapus = input("pilih opsi Tambah, Hapus, STOP:")
-
-        if tambah_atau_hapus == "Tambah" :
-
-            tertambah_buku = str(input('Masukkan buku baru:'))
-
-            buku_tersedia.append(tertambah_buku)
-
-            for item in list_buku_dengan_Nomor:
-                    print(item)
-                    
-        elif tambah_atau_hapus == "Hapus" :
-            terkurang_buku = str(input('Tulis buku yang ingin dihapus:'))
-
-            if terkurang_buku in buku_tersedia:
-
-                buku_tersedia.remove(terkurang_buku)
-
-                for item in list_buku_dengan_Nomor:
-                    print(item)
-
-            else:
-                print('buku tidak terdapat pada list (perhatikan penulisan)')
-
-        elif tambah_atau_hapus == "STOP":
-            break
-
-        else:
-            print("Tolong Perhatikan Penulisan")
+print('Damai Raya Fakhruddin (21120123130096)')
+print('Herdika Putra Devara (21120123140112)')
+print('Muhammad Ilham (21120123120003)')
+print('Radja Fisabilillah (21120123130102)')
+print('\nKelompok 2 shift 1')
